@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+}
+/*==BODY==*/
+body{
+	font-family: sans-serif;
+	font-size: 25px;
+	background-color: #CFCFCF;
+	border-style: double;
+}
+
+/*menu*/
+.head  {
+	list-style-type: none;
+	background-color: red;
+	padding-top: 1px;
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+
+.menu{
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	background-color: white;
+}
+#nhap {
+    width: 80%;
+    padding: 15px 20px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: gray;
+}
+.menu button {
+	width: 10%;
+    padding: 15px 9px ;
+   	margin-right: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: gray;
+}
+ul{
+	padding: 0;
+	margin-top: 0px;
+	margin-bottom: 200px;
+}
+.close {
+	
+	float: right;
+	background-color:white;
+	font-size: 20px;
+	margin-right: 0px;
+	margin-top: -32px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-top: 9px;
+	border: none;
+}
+
+li{
+	list-style-type: none;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	padding-top: 3px;
+	display: block;
+}
+
+li:hover{
+	background-color: #CFCFCF;
+	cursor: pointer;
+	color: white;
+}
+li:hover .close{
+	background-color: red;
+	color: white;
+}
+.completed {
+	background: url("tick.svg") no-repeat left;
+	background-color: gray;
+	color: white;
+	text-decoration: line-through;
+}
+.completed .close{
+	background-color: gray;
+	color: white;
+}
+
+

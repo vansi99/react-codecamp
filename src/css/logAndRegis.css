@@ -1,0 +1,15 @@
+#logAndRegis {
+    background-color: white;
+
+}
+#logAndRegis h1{
+    color: red;
+}
+#logAndRegis p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: -41px;
+}
+#logAndRegis form input {
+    margin-bottom: 1px;
+}

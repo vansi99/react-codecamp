@@ -1,0 +1,28 @@
+#navBar {
+    margin: 0;
+    margin-bottom: -201px;
+    padding: 0;
+    background-color: orange;
+    hoddin:
+}
+#navBar ul {
+    overflow: hidden;
+}
+#navBar ul li {
+    text-align: center;
+    float: right;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 0px;
+    display: inline-table;
+
+}
+#navBar ul #home {
+    float: left;
+}
+#navBar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
