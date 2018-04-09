@@ -49,7 +49,6 @@ class RegisterPage extends Component {
     _handleSubmit(e) {
         e.preventDefault();
         const {email,password,name}=this.state;
-       console.log(email,password,name);
 
         registerAccount({email,password,name})
             .then(response => {
